@@ -1,0 +1,50 @@
+
+.contents{
+    padding:40px 60px 30px 60px;
+    background-attachment:fixed;
+    background-size:cover;
+    text-align:center;
+    border-top:solid #A0BB2D 3px;
+}
+.contents h2{
+    padding-bottom:0px;
+    font-weight:700;
+    color:#D42755;
+}
+.contents hr{
+    background:#000;
+    width:80px;
+    height:1px;
+}
+
+.box5{
+    background:rgb(255, 255, 255);
+    padding:0px 0px 20px 0px;
+    box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+    border-radius:10px;
+    padding-bottom:30px;
+    margin-bottom:25px;
+    transition:all 0.3s;
+
+}
+.box5 h5{
+    padding:16px 0 10px 0;
+}
+.box5 img{
+    width:100%;
+    height:250px;
+    border-radius:10px 10px 0 0;
+}
+.box5 a:link,.box5 a:visited{
+    text-decoration:none;
+    color:#fff;
+    background:#D42755;
+    padding:6px 15px;
+    border-radius:20px;
+    border:solid 1px #D42755;
+}
+.box5 a:hover{
+    color:#D42755;
+    background:white;
+    border:solid 1px #D42755;
+}

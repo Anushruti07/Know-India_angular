@@ -1,0 +1,72 @@
+<link rel="stylesheet" href="header.component.css">
+
+<div class="toplogo">
+</div>
+<header>
+    <div class="container-fluid">
+        <div class="row r1">
+            <div class="col-md-2 col-12"></div>
+            <div class="col-md-10 col-12">
+                <div class="box1">
+                    <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
+                    <li [ngbNavItem]="1">
+                        <button ngbNavLink>Home</button>
+                        <ng-template ngbNavContent>
+                            <p>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li [ngbNavItem]="2">
+                        <button ngbNavLink>Profile</button>
+                        <ng-template ngbNavContent>
+                            <p>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li [ngbNavItem]="3">
+                        <button ngbNavLink>National Identity Elements</button>
+                        <ng-template ngbNavContent>
+                            <p>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li [ngbNavItem]="4">
+                        <button ngbNavLink>Indian Culture</button>
+                        <ng-template ngbNavContent>
+                            <p>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li [ngbNavItem]="5">
+                        <button ngbNavLink>Districts</button>
+                        <ng-template ngbNavContent>
+                            <p>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li [ngbNavItem]="6">
+                        <button ngbNavLink>My India My Pride</button>
+                        <ng-template ngbNavContent>
+                            <p>
+                            </p>
+                        </ng-template>
+                    </li>
+                    <li [ngbNavItem]="7">
+                        <button ngbNavLink>Photo Gallery</button>
+                        <ng-template ngbNavContent>
+                            <p>
+                            </p>
+                        </ng-template>
+                    </li>
+                </ul>
+            </div>
+            
+            <div [ngbNavOutlet]="nav" class="mt-2">
+
+        </div>
+            
+            
+        </div>
+        </div>
+    </div>
+</header>

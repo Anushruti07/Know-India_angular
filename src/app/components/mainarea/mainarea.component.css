@@ -1,0 +1,36 @@
+.mainarea{
+    background:#fff url('https://knowindia.india.gov.in/assets/images/banner/rday-2023.jpg')  no-repeat;
+    background-size:cover;
+    padding:150px 0 150px 0;
+}
+.box2{
+    background:rgb(255,255,255,0.83);
+    padding:30px 0;
+    border-radius:15px;
+    text-align:center;
+    box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+}
+.box2 h1{
+    color:#D42755;
+    font-size:45px;
+    font-weight:700;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+}
+.box2 p{
+    color:blue;
+    font-weight:600;
+    font-size:25px;
+}
+.box2 a:link,.box2 a:visited{
+    text-decoration:none;
+    color:white;
+    background:#D42755;
+    padding:10px 25px;
+    border-radius:20px;
+    box-shadow: 7px 7px 5px -5px rgba(0,0,0,0.75);
+}
+.box2 a:hover{
+    color:#D42755;
+    background:rgb(255,255,255,0);
+    border:solid 1px #D42755;
+}

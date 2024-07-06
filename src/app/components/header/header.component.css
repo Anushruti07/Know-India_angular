@@ -1,0 +1,47 @@
+
+.toplogo{
+    width:150px;
+    height:100px;
+    background:#fff url('https://t4.ftcdn.net/jpg/01/14/62/33/240_F_114623372_ZUIjiBqg3GGiTkkvFzAk4GJ0zpqliJE7.jpg');
+    background-size:cover;
+    position:fixed;
+    top:0;
+    left:20px;
+    z-index:2000;
+    border-radius:0 0 5px 5px;
+    box-shadow: 1px -1px 5px 5px rgba(128,128,128,0.75);
+}
+/* .ngbNavLink{
+    border:solid 1px rgb(0, 0,0,50%) !important;
+}
+.ngbNavLink{
+    color:#fff !important;
+}
+.ngbNavLink:hover{
+    color:#000 !important;
+} */
+ .r1{
+    background: #D42755;
+ }
+.box1{
+    background:#D42755;
+}
+.box1 ul{
+    list-style:none;
+    margin:0;
+    padding:10px 0;
+}
+.box1 ul li{
+    float:left;
+    font-size:18px;
+}
+.ngbNavLink ul li a:link,.ngbNavLink ul li a:visited{
+    color:white;
+    background:#D42755;
+    text-decoration:none;
+    padding:6px 10px;
+    display:block;
+}
+.ngbNavLink ul li a:hover{
+    color:#000;
+}

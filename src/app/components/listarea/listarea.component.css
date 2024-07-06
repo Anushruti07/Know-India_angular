@@ -1,0 +1,25 @@
+
+.list{
+    background:#fff;
+    padding:100px 0 50px 0;
+    text-align:center;
+}
+.box3{
+    background:#fff;
+    margin-bottom:40px;
+}
+.box3 img{
+    width:25%;
+    margin-bottom:5px;
+    transition:all 0.3s;
+}
+.box3 img:hover{
+    transform:scale(1.08);
+}
+.box3 a:link,.box3 a:visited{
+    text-decoration:none;
+    color:rgb(60,60,60,60);
+}
+.box3 a:hover{
+    color:#D42755;
+}
