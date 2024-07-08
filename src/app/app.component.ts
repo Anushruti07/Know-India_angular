@@ -6,14 +6,18 @@ import { MainareaComponent } from './components/mainarea/mainarea.component';
 import { ListareaComponent } from './components/listarea/listarea.component';
 import { CelebrationComponent } from './components/celebration/celebration.component';
 import { ContentsComponent } from './components/contents/contents.component';
+import { MapareaComponent } from './components/maparea/maparea.component';
+import { GalleryareaComponent } from './components/galleryarea/galleryarea.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,HeaderComponent,MainareaComponent,ListareaComponent,CelebrationComponent,ContentsComponent,FooterComponent],
+  imports: [RouterOutlet,HeaderComponent,FooterComponent,MainareaComponent,ListareaComponent,CelebrationComponent,ContentsComponent,
+    MapareaComponent,GalleryareaComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular_project';
+  title = 'project1';
 }

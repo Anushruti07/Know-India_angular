@@ -11,18 +11,6 @@
     border-radius:0 0 5px 5px;
     box-shadow: 1px -1px 5px 5px rgba(128,128,128,0.75);
 }
-/* .ngbNavLink{
-    border:solid 1px rgb(0, 0,0,50%) !important;
-}
-.ngbNavLink{
-    color:#fff !important;
-}
-.ngbNavLink:hover{
-    color:#000 !important;
-} */
- .r1{
-    background: #D42755;
- }
 .box1{
     background:#D42755;
 }
@@ -35,13 +23,13 @@
     float:left;
     font-size:18px;
 }
-.ngbNavLink ul li a:link,.ngbNavLink ul li a:visited{
-    color:white;
+.navbar ul li a:link,.navbar ul li a:visited{
+    color:white !important;
     background:#D42755;
     text-decoration:none;
-    padding:6px 10px;
+    padding:6px 15px;
     display:block;
 }
-.ngbNavLink ul li a:hover{
-    color:#000;
+.navbar ul li a:hover{
+    color:#000 !important;
 }

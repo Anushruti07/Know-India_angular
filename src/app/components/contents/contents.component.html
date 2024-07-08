@@ -1,50 +1,26 @@
-<link rel="stylesheet" href="contents.component.css">
 
 <section class="contents">
     <div class="container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
         <div class="row">
             <div class="col">
                 <h2>Indian Culture</h2>
                 <!-- <hr> -->
                 <br>
-                <br>
             </div>
         </div>
         <div class="row">
-            <div class="col"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 col-12">
-                <div class="box5" >
-                    <img src="https://img.freepik.com/free-photo/delicious-food-table_23-2150857812.jpg?size=626&ext=jpg&ga=GA1.1.2000592546.1701124047&semt=ais_user" alt="">
-                    <h5>Indian Cuisine</h5>
-                    <a href="culture.html">View More</a>
-                </div>
-            </div>
-            <div class="col-md-3 col-12">
-                <div class="box5">
-                    <img src="https://static.wixstatic.com/media/d3f3a3_9327782723694acca04af9b5c7ce75e0~mv2_d_2800_1903_s_2.jpg/v1/fill/w_1406,h_1263,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/d3f3a3_9327782723694acca04af9b5c7ce75e0~mv2_d_2800_1903_s_2.jpg" alt="">
-                    <h5>Indian Dance</h5>
-                    <a href="culture.html">View More</a>
-                </div>
-            </div>
-            <div class="col-md-3 col-12">
-                <div class="box5">
-                    <img src="https://bl-i.thgim.com/public/migration_catalog/article18215801.ece/alternates/LANDSCAPE_1200/TH14_TAJ_2277936f" alt="">
-                    <h5>Indian Monuments</h5>
-                    <a href="culture.html">View More</a>
-                </div>
-            </div>
-            <div class="col-md-3 col-12">
-                <div class="box5">
-                    <img src="https://as2.ftcdn.net/v2/jpg/06/26/32/89/1000_F_626328902_fSfRbRGm512plmMO5AEomypnifASTFH1.jpg" alt="">
-                    <h5>Photo Gallery</h5>
-                    <a href="culture.html">View More</a>
-                </div>
-            </div>
+            @for (content of contents; track $index) {
+                <div class="col-md-3 col-12">
+                    <div class="card" style="width: 18rem;">
+                        <img src="{{content.image}}" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">{{content.head}}</h5>
+                          <a href="{{content.link}}" class="btn btn-primary">View More</a>
+                        </div>
+                      </div>
+                    </div>
+            }
         </div>
     </div>
 </section>
+

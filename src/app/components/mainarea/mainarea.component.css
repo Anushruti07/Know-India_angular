@@ -1,5 +1,5 @@
 .mainarea{
-    background:#fff url('https://knowindia.india.gov.in/assets/images/banner/rday-2023.jpg')  no-repeat;
+    background:#fff url("../../assets/rday-2023.jpg")  no-repeat;
     background-size:cover;
     padding:150px 0 150px 0;
 }

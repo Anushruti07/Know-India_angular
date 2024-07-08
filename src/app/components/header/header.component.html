@@ -1,72 +1,46 @@
-<link rel="stylesheet" href="header.component.css">
-
-<div class="toplogo">
-</div>
-<header>
+<div class="toplogo"></div>
+<section>
     <div class="container-fluid">
-        <div class="row r1">
+        <div class="row box1">
             <div class="col-md-2 col-12"></div>
-            <div class="col-md-10 col-12">
-                <div class="box1">
-                    <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs">
-                    <li [ngbNavItem]="1">
-                        <button ngbNavLink>Home</button>
-                        <ng-template ngbNavContent>
-                            <p>
-                            </p>
-                        </ng-template>
+            <div class="col-md-10 col-12 box1">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarColor03" [ngbCollapse]="isCollapsed">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home</a>
                     </li>
-                    <li [ngbNavItem]="2">
-                        <button ngbNavLink>Profile</button>
-                        <ng-template ngbNavContent>
-                            <p>
-                            </p>
-                        </ng-template>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Profile</a>
                     </li>
-                    <li [ngbNavItem]="3">
-                        <button ngbNavLink>National Identity Elements</button>
-                        <ng-template ngbNavContent>
-                            <p>
-                            </p>
-                        </ng-template>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">National Identity Elements</a>
                     </li>
-                    <li [ngbNavItem]="4">
-                        <button ngbNavLink>Indian Culture</button>
-                        <ng-template ngbNavContent>
-                            <p>
-                            </p>
-                        </ng-template>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Indian Culture</a>
                     </li>
-                    <li [ngbNavItem]="5">
-                        <button ngbNavLink>Districts</button>
-                        <ng-template ngbNavContent>
-                            <p>
-                            </p>
-                        </ng-template>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Districts</a>
                     </li>
-                    <li [ngbNavItem]="6">
-                        <button ngbNavLink>My India My Pride</button>
-                        <ng-template ngbNavContent>
-                            <p>
-                            </p>
-                        </ng-template>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">My India My Pride</a>
                     </li>
-                    <li [ngbNavItem]="7">
-                        <button ngbNavLink>Photo Gallery</button>
-                        <ng-template ngbNavContent>
-                            <p>
-                            </p>
-                        </ng-template>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Photo Gallery</a>
                     </li>
-                </ul>
+                  </ul>
+                  <!-- <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                  </form> -->
+                </div>
+              </nav>
             </div>
-            
-            <div [ngbNavOutlet]="nav" class="mt-2">
-
-        </div>
-            
-            
-        </div>
         </div>
     </div>
-</header>
+</section>
